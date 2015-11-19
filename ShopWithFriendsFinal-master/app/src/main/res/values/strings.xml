@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShoppingWithFriends</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcomeText">Welcome to Shopping With Friends!</string>
+    <string name="login">Login</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="usernameText">Username:</string>
+    <string name="passwordText">Password:</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="password">Password</string>
+    <string name="user_ID">User ID</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="realName">Name:</string>
+    <string name="email">Email:</string>
+    <string name="passConfirm">Confirm Password:</string>
+    <string name="test">Test</string>
+    <string name="title_activity_app_main_screen">AppMainScreen</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_friends">Friends</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="show_friends">Show Friends</string>
+    <string name="main_screen">Main Screen</string>
+    <string name="friends">Friends</string>
+    <string name="title_activity_add_friend">addFriend</string>
+    <string name="postItem">Post an Item</string>
+    <string name="title_activity_post_item">postItem</string>
+    <string name="postItemHint">Post items you are looking for here</string>
+    <string name="itemName">Item Name:</string>
+    <string name="maxPrice">Maximum Price:</string>
+    <string name="notes">Notes:</string>
+    <string name="maxPriceText"></string>
+    <string name="itemNotes"></string>
+    <string name="postToFriends">Post To Friends</string>
+    <string name="title_activity_items_list">itemsList</string>
+    <string name="myPostedItems">My Wishlist</string>
+    <string name="myItems">My Wishlist:</string>
+    <string name="title_activity_my_items">My WishList</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_launch_screen">LaunchScreen</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="parse_app_id">wRiRrWNKQgEKQEc6OZtqAPYsekcKgjaEO9YolId4</string>
+    <string name="parse_client_key">9mvL7SN6X96e3a0xH8rl4QJDxwoHSm0MWzzVPm9A</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="google_maps_key">AIzaSyBVgqtWRnVr4OPFqF5fJokrIhHCQT1LP8s</string>
+</resources>

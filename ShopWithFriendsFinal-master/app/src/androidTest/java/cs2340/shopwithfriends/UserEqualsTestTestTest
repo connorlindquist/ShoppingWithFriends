@@ -1,0 +1,31 @@
+package cs2340.shopwithfriends;
+
+import cs2340.edu.gatech.shoppingwithfriends.User.User;
+import junit.framework.TestCase;
+
+public class UserEqualsTestTestTest extends TestCase {
+
+    private User taylor = new User("902912175", "taylor.wilson@gatech.edu", "bubba", "Taylor");
+    private User john = new User("123456789", "hello@gatech.edu", "hello", "John");
+    private User bob = new User("902912175", "taylor.wilson@gatech.edu", "dkdkdk", "bob");
+    private User taylor2 = new User("902912175", "taylor.wilson@gatech.edu", "bubba", "Taylor");
+
+
+    public void testUnequalUsersTest() throws Exception {
+        assertFalse(taylor.equals(john));
+        assertFalse(taylor.equals(bob));
+        assertFalse(bob.equals(john));
+    }
+
+    public void testEqualUsersTest() throws Exception {
+        assertTrue(taylor2.equals(taylor));
+    }
+
+    public void testNullUserTest() throws Exception {
+        try {
+            assertFalse(taylor.equals(null));
+        } catch (NullPointerException e) {
+            assertNotNull(e);
+        }
+    }
+}
